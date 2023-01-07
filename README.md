@@ -1,4 +1,4 @@
-# How and Where Did People Die On The Job?
+# How and Where Did People Die On The Job in the U.S.?
 I scraped and analyzed workplace death cases recorded by the Department of Labor's Occupational Safety and Health Administration (OSHA). The folders contain notebooks, maps, and Datawrapper visualizations. 
 ---------
 As my semester one final project, I used Playwright to scrape the OSHA website where the agency lists the [cases of workplace deaths it inspected](https://www.osha.gov/fatalities), and analyzed them using pandas and regex. Data between January 2017 and November 2022 was available. 6498 rows were analyzed, as I removed two repeat cases (there were 6,500 cases when I last scraped the data on January 6, 2023). COVID-19 related deaths are not included.
