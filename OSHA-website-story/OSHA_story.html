@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workplace fatalities</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        .container {
+            max-width: 760px !important;
+        }
+
+        .img-fluid {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;
+            padding: 20px;
+        }
+    </style>
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        How and Where Did People Die On The Job in the U.S.?
+      </h1>
+      <img class="img-fluid" src="OSHA screenshot.jpg">
+
+      <p class="subtitle"> <strong>
+
+        I scraped workplace fatality data from <a href="https://www.osha.gov/fatalities">OSHA's website</a>, and charted what I found. 
+
+        There are a total of 6,500 cases on the website. I removed two as they were repeated
+        cases, and analyzed 6,498 cases. Scraping the union status required an additional step of
+        going into each case and extracting the information, and I managed to get 6,433 cases, 
+        which I believe is still sizable:</strong>
+
+     </p>
+
+      <div class="content">
+        <h3>Number of cases</h3>
+        <p>
+            <p>Workplace deaths in the U.S. have been falling since 2019, according to cases inspected by
+            the Department of Labor's Occupational Safety and Health Administration (OSHA)
+            between January 2017 and November 2022. </p>
+
+            <iframe title="Number of workplace deaths in the U.S. " aria-label="Column Chart" id="datawrapper-chart-JSA1U" src="https://datawrapper.dwcdn.net/JSA1U/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+            </script>
+    
+            <p>However, this could also be due to the pandemic, when some companies stopped worked and their
+            workers stayed home. Or that OSHA has not updated the table to include more recent cases. OSHA 
+            states on its website that the information is not comprehensive and is updated when the data 
+            becomes available.</p>
+    
+            <p>The number of workplace deaths on OSHA's website do not tally with the Bureau
+            of Labor Statistics' (BLS) data. For example, BLS' data showed there were 
+            <a href="https://www.bls.gov/news.release/cfoi.htm">5,190 fatal work injuries in 2021</a>, up from 4,764 in 2020. In 2019, there were 5,333 deaths.
+            </p>
+
+           <p>Jordan Barab, a former deputy assistant secretary at OSHA who worked at the agency between 2009 and 2017 and writes the
+            <a href="https://jordanbarab.com/confinedspace/">workplace safety "Confined Spaces" blog</a>, told me there are several reasons why OSHA's count is lower than BLS'.</p> 
+            
+            <p>Public employees in <a href="https://www.osha.gov/stateplans/">21 of the 50 states</a> are not covered by the agency, and these include workers who work in public hospitals, water treatment plants, and on highways.
+            Situations that are under the police's jurisdiction are also not investigated by OSHA. For example, a shooting
+            at a convenience store would be turned over to law enforcement. Agencies like the <a href="https://www.osha.gov/laws-regs/regulations/standardnumber/1960/1960.19">Federal Aviation Administration and the Department of Energy</a> also handle their own cases.
+            Furthermore, self-employed workers such as ride-hailing drivers and delivery workers are not under OSHA's jurisdiction. </p>
+    
+
+        <h3>How workers died</h3>
+
+            <p>Most workers died by falling or being struck by objects. Covid-19 related deaths were not
+            counted in this analysis.</p>
+            
+            <iframe title="Most workers died after they fell or were struck by a heavy object" aria-label="Column Chart" id="datawrapper-chart-AAh5q" src="https://datawrapper.dwcdn.net/AAh5q/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+            </script>
+
+            <p>Barab said that both OSHA and BLS hardly count deaths that stem from work-related illnesses — OSHA has a separate 
+            <a href="https://www.osha.gov/fatalities/covid-19">table for COVID-19 deaths</a> but these number only 2,137 — and this is an issue, though he understands it is difficult to trace
+            as the death could occur many years after the cause, say cancer 20 or 30 years after exposure to asbestos. 
+            </p>
+            <p>
+            <a href="https://aflcio.org/reports/death-job-toll-neglect-2022#:~:text=4%2C764%20workers%20were%20killed%20on,the%20job%20than%20all%20workers.">A report</a> published in 2022 by the trade union AFL-CIO, the largest labor union organization
+            in the U.S., said that an estimated 120,000 workers die each year from occupational diseases, or about 340 workers a day. 
+            </p>
+
+        <h3>Where deaths occurred</h3>
+    
+           <p>Texas, California, and Florida had the most number of workplace deaths during this period,
+            but these are also the three largest states by population in the country. After accounting
+            for population, Oregon, North Dakota, and Wyoming were the three states with the highest rate
+            of workplace deaths per population. </p>
+
+            <iframe title="Total number of workplace fatalities in each state " aria-label="Map" id="datawrapper-chart-lJp8O" src="https://datawrapper.dwcdn.net/lJp8O/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="631" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+            </script>
+            <br>
+            <iframe title="Workplace fatalities per 100,000 people in each U.S. state " aria-label="Map" id="datawrapper-chart-ZPIsS" src="https://datawrapper.dwcdn.net/ZPIsS/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="617" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+            </script>
+            
+            <p>Only states were mapped — U.S. territorities were not. OSHA also investigates deaths in territories. 
+            There were 46 cases in Puerto Rico, just above New  Mexico's 43, and below Nebraska's 48. 
+            The Virgin Islands, Guam, American Samoa, and Northern Mariana Islands had six, five, four, 
+            and two cases respectively. Curiously, Washington state had only four cases.</p>
+
+            <p>It is hard to say why certain states have a higher rate than others, Barab said, given the relatively
+                small number of deaths relative to the state's population. This means there is a lot of volatility in the rate and a couple more or
+                fewer deaths can change the rate drastically. 
+            </p>
+
+        <h3>How union status affected workers </h3>
+
+            <p>Nearly 90% of workers who died were not unionzed. This is not surprising. A report 
+            published by the <a href="https://illinoisepi.files.wordpress.com/2021/11/ilepi-pmcr-unions-and-construction-health-and-safety-final.pdf">Illinois Economic Policy Institute in November 2021 </a> — and <a href= "https://blog.dol.gov/2022/05/11/the-connection-between-unions-and-worker-safety">cited by OSHA</a> —
+            found that union worksites had 34% fewer violations per OSHA inspection 
+            than non-union ones. And while unions represented 14% of the construction industry workers, 
+            their employers made up only 5% of the industry’s OSHA violations. Unions help to negotiate
+            safety protocols, ensure their workers are not being put in risky situation, and help workers to
+            file and bring up grievances. </p>
+
+            <iframe title="Most cases involved non-unionized workers" aria-label="Column Chart" id="datawrapper-chart-BVRD3" src="https://datawrapper.dwcdn.net/BVRD3/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+            </script>
+
+
+        </p>
+
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
