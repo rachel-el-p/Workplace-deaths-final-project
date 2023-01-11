@@ -1,7 +1,7 @@
 # How and Where Did People Die On The Job in the U.S.?
 I scraped and analyzed workplace death cases recorded by the Department of Labor's Occupational Safety and Health Administration (OSHA). The folders contain notebooks, maps, and Datawrapper visualizations. 
 
-(The story is also available in the OSHA website directory and here:)
+(The story is also available in my directory 'OSHA-website-story':)
 ---------
 There are a total of 6,500 cases on the website. I removed two as they were repeated
 cases, and analyzed 6,498 cases. Scraping the union status required an additional step of
