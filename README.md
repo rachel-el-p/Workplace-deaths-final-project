@@ -22,7 +22,7 @@ of Labor Statistics' (BLS) data](https://www.bls.gov/news.release/cfoi.htm). For
 
 Jordan Barab, a former deputy assistant secretary at OSHA who worked at the agency between 2009 and 2017 and writes the [workplace safety "Confined Spaces" blog](https://jordanbarab.com/confinedspace/), told me there are several reasons why OSHA's count is lower than BLS'.
 
-Only ![27 out of 50 states](https://www.osha.gov/stateplans/faqs) — excluding U.S. territories — have OSHA plans that cover public employees. These include workers who work in public hospitals, water treatment plants, and on highways.
+Only [27 out of 50 states](https://www.osha.gov/stateplans/faqs) — excluding U.S. territories — have OSHA plans that cover public employees. These include workers who work in public hospitals, water treatment plants, and on highways.
 Situations that are under the police's jurisdiction are also not investigated by OSHA. For example, a shooting
 at a convenience store would be turned over to law enforcement. Agencies like the Federal Aviation Administration and the Department of Energy also handle their own cases.
 Furthermore, self-employed workers such as ride-hailing drivers and delivery workers are not under OSHA's jurisdiction. </p>
